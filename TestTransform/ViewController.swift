@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         var perspectiveTransform = CATransform3DIdentity
         perspectiveTransform.m34 = 1.0/(-1000)
         perspectiveTransform = CATransform3DTranslate(perspectiveTransform, 50, 0, 0)
-        sampleView.layer.transform = perspectiveTransform
+        view.layer.transform = perspectiveTransform
     }
 }
 
